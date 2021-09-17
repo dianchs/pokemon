@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+}
+
+.main{
+    width: 99%;
+    height: 68vh;
+    background: url('https://mocah.org/uploads/posts/546951-pokemon-background.jpg') bottom / cover fixed;
+    border: 5px solid black;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center; 
+    overflow-y: scroll;
+}
+
+.cont{
+    width: 99%;
+    height: 5vh;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    background: url('https://mocah.org/uploads/posts/546951-pokemon-background.jpg') bottom / cover fixed;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.cont button{
+    width: 100px;
+    height: 30px;
+    color: black;
+    border: 3px solid black;
+    font-size: large;
+    background: orange;
+}
+
+nav{
+    width: 99%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://mocah.org/uploads/posts/546951-pokemon-background.jpg') bottom / cover fixed;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+nav img{
+    width: 25%;
+    height: 80%;
+}
+
+.card{
+    height: 60%;
+    margin: 5%;
+    padding: 10px;
+    width: 30%;
+    background: url('https://img1.goodfon.com/wallpaper/nbig/d/e5/son-otdyh-pokemon-pikachu.jpg') center / cover;
+    border: 3px solid black;
+} 
+
+
+
+.card_content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.card-text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.more{
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
